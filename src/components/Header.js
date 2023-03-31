@@ -1,6 +1,10 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+
+//hover:text-9xl border-2 transition-all duration-300 cursor-pointer
 
 const Header = () => {
+
   return (
     <div className='h-screen'>
       <div className="flex justify-between p-4">
@@ -21,17 +25,28 @@ const Header = () => {
         hover:text-transparent hover:text-4xl
         transition-all duration-300 cursor-pointer
         '>
-          Hey! My name is
+          Hey! I'm
         </p>
-        <h className='relative text-8xl w-[1000px] text-center text-transparent h-32
-        bg-clip-text bg-gradient-to-r from-primaryred to-primaryblue
-        hover:text-9xl border-2 transition-all duration-300 cursor-pointer'>
-          KAUSHAL RAMESH
+        <h id = "text" className='relative text-8xl w-[1000px] text-center text-transparent
+        bg-clip-text bg-gradient-to-r from-primaryred to-primaryblue'>
+          <TypeAnimation
+            sequence={[
+              'Kaushal Ramesh', 2000,
+              'A Programmer', 2000,
+              'A Comp Sci Student', 2000,
+              () => {
+                console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+              }
+            ]}
+            wrapper="span"
+            speed={1}
+            deletionSpeed={1}
+            cursor={true}
+            repeat={Infinity}
+            style={{display: 'inline-block' }}
+          />
         </h>
-        <div className='h-10 border-2'>
-          Wow
-        </div>
-        <p className='border-2 text-3xl w-[920px] text-center text-white h-10
+        <p className=' text-3xl w-[920px] text-right text-white h-10
         hover:bg-clip-text hover:bg-gradient-to-r from-primaryred to-primaryblue
         hover:text-transparent hover:text-4xl
         transition-all duration-300 cursor-pointer origin-center
@@ -43,11 +58,13 @@ const Header = () => {
   );
 };
 
+
+
 const HeaderNode = ({num, name, link}) => (
   <a href={link}>
     <div className='header'>
       <p className='text-white bottom-0'>
-          .0{num}
+        .0{num}&nbsp; 
       </p>
       <h className='text-4xl bottom-0'>
           {name}
@@ -55,5 +72,7 @@ const HeaderNode = ({num, name, link}) => (
     </div>
   </a>
 );
+
+
 
 export default Header;

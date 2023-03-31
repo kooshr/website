@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Work = () => {
-  return <div>Work</div>;
+  return <div className='h-screen'>Work</div>;
 };
 
 export default Work;
