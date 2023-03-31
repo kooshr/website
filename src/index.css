@@ -68,4 +68,12 @@
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+  .navbar-icon {
+    @apply relative flex items-center justify-center 
+    h-10 w-10 mt-2 mb-2 mx-auto bg-transparent 
+    bg-gradient-to-r from-primaryred to-primaryblue rounded-lg
+    hover:text-gray-300 hover:rounded-2xl transition-all duration-100 ease-linear
+    cursor-pointer
+    ;
+  }
 }

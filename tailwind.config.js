@@ -1,4 +1,5 @@
 module.exports = {
+  mode:'jit',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
@@ -19,8 +20,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#0a0a0a',
-        accent: '#B809C3',
+        primaryred: '#FF0000',
+        primaryblue: '#001AFF',
+        primarygray: '#D9D9D9',
+        bgblack: '#0D1321',
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
