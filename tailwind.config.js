@@ -24,6 +24,7 @@ module.exports = {
         primaryblue: '#001AFF',
         primarygray: '#D9D9D9',
         bgblack: '#0D1321',
+        txtgreen: '#B8E2CB',
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
