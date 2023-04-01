@@ -7,19 +7,27 @@ const Header = () => {
 
   return (
     <div className='h-screen'>
-      <div className="flex justify-between p-4">
-        <div>
+      <div className="flex p-4">
+        <div className='absolute'>
           Top Left Icon
         </div>
-        <div className="flex justify-end space-x-8
-        flex-row w-[800px] text-white shadow-lg">
+        <div className="flex m-auto mr-0 space-x-8
+        flex-row w-[800px] h-12 text-white shadow-lg">
           <HeaderNode num = "1" name="About"/>
           <HeaderNode num="2" name="Work" />
           <HeaderNode num="3" name="Projects" />
           <HeaderNode num="4" name="Contact" />
+          <a href= "">
+          <div className='text-4xl h-10 w-36 font-extrabold text-center bottom-0 rounded-md 
+          bg-gradient-to-r from-primaryblue to-primaryred hover:border-[1px] cursor-pointer'>
+            Resume
+          </div>
+          </a>
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center h-5/6 p-10 '>
+      <div className='h-64 right-0' />
+      <div className='m-auto ml-0 rounded-xl h-1 w-1/4 bg-gradient-to-r from-primaryblue to-primaryred' />
+      <div className='flex flex-col justify-center items-center h-2/7 p-10 '>
         <p className='text-3xl w-[920px] pb-0 text-left text-white h-10 
         hover:bg-clip-text hover:bg-gradient-to-r from-primaryred to-primaryblue
         hover:text-transparent hover:text-4xl
@@ -53,8 +61,10 @@ const Header = () => {
         '>
           Scroll Down to Learn More about Me!
         </p>
+      
       </div>
-    </div>
+      <div className='m-auto mr-0 rounded-xl h-1 w-1/4 bg-gradient-to-r from-primaryblue to-primaryred' />
+      </div>
   );
 };
 
