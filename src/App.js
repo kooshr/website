@@ -9,15 +9,13 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className='bg-bgblack overflow-hidden'>
-      <Header />
-      <div className='flex '>
-        <Nav />
-      </div>
-      <About />
-      <Work />
-      <Services />
-      <Contact />
+    <div className='bg-bgblack overflow-hidden scroll-smooth'>
+      <Header/>
+      <Nav/>
+      <About/>
+      <Work/>
+      <Services/>
+      <Contact/>
     </div>
   );
 };

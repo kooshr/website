@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import { AiOutlineDown } from 'react-icons/ai';
 
 //hover:text-9xl border-2 transition-all duration-300 cursor-pointer
 
@@ -13,7 +14,7 @@ const Header = () => {
         </div>
         <div className="flex m-auto mr-0 space-x-8
         flex-row w-[800px] h-12 text-white shadow-lg">
-          <HeaderNode num = "1" name="About"/>
+          <HeaderNode num = "1" name="About" link='#about'/>
           <HeaderNode num="2" name="Work" />
           <HeaderNode num="3" name="Projects" />
           <HeaderNode num="4" name="Contact" />
@@ -64,6 +65,17 @@ const Header = () => {
       
       </div>
       <div className='m-auto mr-0 rounded-xl h-1 w-1/4 bg-gradient-to-r from-primaryblue to-primaryred' />
+      <a href='#about' className="flex justify-center align-middle">
+        <div className='bg-bgblack flex justify-evenly items-center 
+        flex-row animate-bounce bottom-4 absolute ml-0 mr-0 m-0 r-0
+        h-16 w-96 rounded-2xl hover:bg-gradient-to-r
+        hover: from-primaryred hover: to-primaryblue 
+        transition-all duration-3000 cursor-pointer origin-center'>
+          <AiOutlineDown size={36}/>
+          <AiOutlineDown size={36} />
+          <AiOutlineDown size={36} />
+        </div>
+      </a>
       </div>
   );
 };
