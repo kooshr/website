@@ -18,11 +18,11 @@ const Header = () => {
           <HeaderNode num="2" name="Work" />
           <HeaderNode num="3" name="Projects" />
           <HeaderNode num="4" name="Contact" />
-          <a href= "">
-          <div className='text-4xl h-10 w-36 font-extrabold text-center bottom-0 rounded-md 
-          bg-gradient-to-r from-primaryblue to-primaryred hover:border-[1px] cursor-pointer'>
-            Resume
-          </div>
+          <a href= "assets/Kaushal Ramesh Resume.pdf">
+            <div className='text-4xl h-10 w-36 font-extrabold text-center bottom-0 rounded-md 
+            bg-gradient-to-r from-primaryblue to-primaryred hover:border-[1px] cursor-pointer'>
+              Resume
+            </div>
           </a>
         </div>
       </div>
