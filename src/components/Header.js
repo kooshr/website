@@ -10,7 +10,7 @@ const Header = () => {
     <div className='h-screen'>
       <div className="flex p-4">
         <div className='absolute'>
-          Top Left Icon
+          <img src="assets/Logo Gradient.png" className='h-a w-24'/>
         </div>
         <div className="flex m-auto mr-0 space-x-8
         flex-row w-[800px] h-12 text-white shadow-lg">
