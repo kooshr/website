@@ -1,6 +1,6 @@
 # Kaushal Ramesh Personal Website
 
-##Still Under Development, No Release Yet
+## Still Under Development, No Release Yet
 
 The starter code for this project was from [cristianmihai01's portfolio starter](https://github.com/cristianmihai01/portfolio-starter)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
