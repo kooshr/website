@@ -28,7 +28,7 @@ const Nav = () => {
         text="Instagram! 📸"
       />
       
-      <div className='m-auto rounded-xl h-48 w-1 bg-gradient-to-t from-primaryblue to-primaryred'/>
+      <div className='w-1 h-48 m-auto rounded-xl bg-gradient-to-t from-primaryblue to-primaryred'/>
   </div>
   );
 };

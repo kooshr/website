@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex m-auto mr-0 space-x-8
         flex-row w-[800px] h-12 text-white shadow-lg">
           <HeaderNode num = "1" name="About" link='#about'/>
-          <HeaderNode num="2" name="Work" />
+          <HeaderNode num="2" name="Work" link='#work' />
           <HeaderNode num="3" name="Projects" />
           <HeaderNode num="4" name="Contact" />
           <a href= "assets/Kaushal Ramesh Resume.pdf">
@@ -26,7 +26,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div className='h-64 right-0' />
+      <div className='right-0 h-44' />
       <div className='m-auto ml-0 rounded-xl h-1 w-1/4 bg-gradient-to-r from-primaryblue to-primaryred' />
       <div className='flex flex-col justify-center items-center h-2/7 p-10 '>
         <p className='text-3xl w-[920px] pb-0 text-left text-white h-10 
@@ -65,17 +65,17 @@ const Header = () => {
       
       </div>
       <div className='m-auto mr-0 rounded-xl h-1 w-1/4 bg-gradient-to-r from-primaryblue to-primaryred' />
-      <a href='#about' className="flex justify-center align-middle">
-        <div className='bg-bgblack flex justify-evenly items-center 
-        flex-row animate-bounce bottom-4 absolute ml-0 mr-0 m-0 r-0
-        h-16 w-96 rounded-2xl hover:bg-gradient-to-r
-        hover: from-primaryred hover: to-primaryblue 
-        transition-all duration-3000 cursor-pointer origin-center'>
-          <AiOutlineDown size={36}/>
-          <AiOutlineDown size={36} />
-          <AiOutlineDown size={36} />
-        </div>
-      </a>
+        <a href='#about' className="flex justify-center align-middle">
+          <div className='flex bg-transparent justify-evenly items-center 
+          flex-row animate-bounce bottom-4 absolute ml-0 mr-0 m-0 r-0
+          h-16 w-96 rounded-2xl hover:bg-gradient-to-r
+          hover: from-primaryred hover: to-primaryblue 
+          transition-all duration-3000 cursor-pointer origin-center'>
+            <AiOutlineDown size={36}/>
+            <AiOutlineDown size={36} />
+            <AiOutlineDown size={36} />
+          </div>
+        </a>
       </div>
   );
 };

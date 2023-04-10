@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className='bg-bgblack overflow-hidden scroll-smooth'>
+    <div className='bg-bgblack bg-hero-topography scroll-smooth'>
       <Header/>
       <Nav/>
       <About/>

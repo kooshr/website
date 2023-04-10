@@ -42,31 +42,10 @@
 
 @layer base {
   body {
-    @apply font-secondary text-lg leading-8 text-white;
-  }
-  .h2 {
-    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
-  }
-  .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
-  }
-  .btn {
-    @apply rounded-full font-primary text-white font-medium;
-  }
-  .btn-sm {
-    @apply h-[48px] px-6 text-sm;
-  }
-  .btn-lg {
-    @apply h-[56px] px-10 text-base;
-  }
-  .btn-link {
-    @apply text-base;
+    @apply text-lg leading-8 text-white font-secondary;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
-  }
-  .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-primaryred to-primaryblue font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .navbar-icon {
     @apply relative flex items-center justify-center 
@@ -81,7 +60,12 @@
     text-xs font-bold transition-all duration-100 scale-0 origin-left;
   }
   .header {
-    @apply flex flex-row text-transparent hover:text-white bg-clip-text font-extrabold bg-gradient-to-r from-primaryred to-primaryblue
-    hover:text-4xl transition-all duration-300 origin-left cursor-pointer;
+    @apply flex flex-row font-extrabold text-transparent transition-all duration-300 origin-left cursor-pointer hover:text-white bg-clip-text bg-gradient-to-r from-primaryred to-primaryblue hover:text-4xl;
+  }
+  .work-icon {
+    @apply h-16 text-center transition-all duration-100 rounded-lg w-60 bg-gradient-to-r from-primaryblue to-primaryred;
+  }
+  .work-info {
+    @apply text-left transition-all duration-300 scale-0 border-2 indent-5 w-96 h-60;
   }
 }
