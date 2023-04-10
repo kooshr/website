@@ -6,7 +6,7 @@ import { ImInstagram } from "react-icons/im";
 
 const Nav = () => {
   return (
-    <div className="fixed items-center justify-center bottom-14 left-20 h-[320px] w-[40px] flex-column bg-transparent text-white shadow-lg">
+    <div className="fixed items-center justify-center bottom-14 left-8 h-[320px] w-[40px] flex-column bg-transparent text-white shadow-lg">
       <NavBarIcon 
         icon={<TfiHome size = "20"/>} 
         text= "Home 🏠"

@@ -15,6 +15,14 @@ module.exports = {
         bgblack: '#0D1321',
         txtgreen: '#B8E2CB',
       },
+      animation: {
+        shine: "shine .9s",
+      },
+      keyframes: {
+        shine: {
+          "100%": { left: "125%" },
+        },
+      },
     },
   },
   plugins: [
