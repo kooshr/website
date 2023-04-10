@@ -35,7 +35,7 @@ const Work = () => {
              </ul>
               </p>
               <div className='absoulte bg-gradient-to-r from-primaryblue to-primaryred w-[139px] h-[126px] ml-[251px] mt-[-180px] rounded-lg'/>
-              <img src="assets/deepsphere_logo.jpeg" className='w-[139px] h-[126px] ml-[241px] mt-[-140px] rounded-lg'/>
+              <img src="assets/deepsphere_logo.jpeg" alt="Img not Found. Maybe Reload?" className='w-[139px] h-[126px] ml-[241px] mt-[-140px] rounded-lg'/>
             </div>
         </div>
         <div className='mt-20 work-icon group'>
@@ -55,7 +55,7 @@ const Work = () => {
               </ul>
               </p>
               <div className='absoulte bg-gradient-to-r from-primaryblue to-primaryred w-[139px] h-[126px] ml-[251px] mt-[-180px] rounded-lg'/>
-              <img src="assets/kumon-logo.jpeg" className='w-[139px] h-[126px] ml-[243px] mt-[-140px] rounded-lg'/>
+              <img src="assets/kumon-logo.jpeg" alt="Img not Found. Maybe Reload?" className='w-[139px] h-[126px] ml-[243px] mt-[-140px] rounded-lg'/>
             </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ const Work = () => {
             </ul>
               </p>
               <div className='absoulte bg-gradient-to-r from-primaryblue to-primaryred w-[139px] h-[126px] ml-[251px] mt-[-180px] rounded-lg'/>
-              <img src="assets/cisco_logo.jpeg" className='w-[139px] h-[126px] ml-[242px] mt-[-140px] rounded-lg'/>
+              <img src="assets/cisco_logo.jpeg" alt="Img not Found. Maybe Reload?" className='w-[139px] h-[126px] ml-[242px] mt-[-140px] rounded-lg'/>
             </div>
         </div>
       </div>

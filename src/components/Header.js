@@ -10,7 +10,7 @@ const Header = () => {
     <div className='h-screen'>
       <div className="flex p-4">
         <div className='absolute'>
-          <img src="assets/Logo Gradient.png" className='w-24 h-a'/>
+          <img src="assets/Logo Gradient.png" alt="Img not Found. Maybe Reload?" className='w-24 h-a'/>
         </div>
         <div className="flex m-auto mr-0 space-x-8
         flex-row w-[800px] h-12 text-white shadow-lg">
