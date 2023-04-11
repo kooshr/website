@@ -1,5 +1,7 @@
 # Kaushal Ramesh Personal Website
 
+Welcome to My Personal Site! It is build using [React](https://react.dev/) and [Tailwind CSS](https://tailwindcss.com/). It is currently deployed through [Netlify](https://www.netlify.com/)
+
 ## Still Under Development, No Release Yet
 
 The starter code for this project was from [cristianmihai01's portfolio starter](https://github.com/cristianmihai01/portfolio-starter)
