@@ -1,10 +1,10 @@
-# Kaushal Ramesh Personal Website
+# Kaushal Ramesh Personal Website v1.0.0
 
 Welcome to My Personal Site! It is build using [React](https://react.dev/) and [Tailwind CSS](https://tailwindcss.com/). It is currently deployed through [Netlify](https://www.netlify.com/).
 
 <img src = "HomePage.png"/>
 
-## ~~Still Under Development, No Release Yet~~
+## ~~Still Under Development, No Release Yet~~ v1.0.0 Released!
 
 The starter code for this project was from [cristianmihai01's portfolio starter](https://github.com/cristianmihai01/portfolio-starter)
 
