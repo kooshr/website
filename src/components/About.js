@@ -21,7 +21,7 @@ const About = () => {
           creating games. Feel free to contact me if you want to get in touch!
           </p>
           <div className='hover:-translate-y-3 cursor-pointer hover:-translate-x-3 transition-all duration-300 w-52 h-[300px] ml-4'>
-            <div className=' bg-gradient-to-r from-primaryblue to-primaryred w-52 h-[277px] mt-[17px] ml-[15px]'/>
+            <div className=' bg-gradient-to-tr from-primaryblue to-primaryred w-52 h-[277px] mt-[17px] ml-[15px]'/>
             <img src="assets/Kaushal Tree pfp.jpg" alt="Img not Found. Maybe Reload?" className=' mt-[-290px] w-52'/>
           </div>
         </div>
