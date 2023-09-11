@@ -11,7 +11,7 @@ const About = () => {
           <div className='w-2/3 h-1 mt-4 rounded-xl bg-gradient-to-r from-primaryblue to-primaryred' />
         </div>
         <div className='flex flex-row h-2/3 '>
-          <p className='top-0 justify-between w-3/5 mt-10 ml-5 overflow-scroll text-2xl leading-6 h-5/6 indent-7'>
+          <p className='top-0justify-between w-3/5 mt-10 ml-5 overflow-y-auto overflow-x-hidden text-2xl leading-6 h-5/6 indent-7'>
           Hey! I'm <b className='text-transparent transition-all duration-300 cursor-pointer hover:text-3xl bg-clip-text bg-gradient-to-r from-primaryred to-primaryblue'>Kaushal Ramesh </b> 
           (He/Him), and I am currently an
           Undergrad at UC Santa Cruz and an avid computer science geek.
